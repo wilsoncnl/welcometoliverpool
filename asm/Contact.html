@@ -9,7 +9,7 @@
 
 <link rel="stylesheet" href="Contactcss.css">
 <div class="topnav" id="myTopnav">
-  <a href="asm.html" class="active">Home</a>
+  <a href="Home.html" class="active">Home</a>
   <!--a href="news.html">News</a-->
   <a href="Contact.html">Forum</a>
     <div class="dropdown">
@@ -27,6 +27,7 @@
    
   </a>
 </div>
+
 <body>
     <div class="top-bar">
         <h1>
@@ -65,6 +66,7 @@
     <style>
         body {
             margin: 10px 60px;
+			background: url(img/21.png) no-repeat 0 0;
         }
         a {
             text-decoration: none;
@@ -75,6 +77,9 @@
         }
         p {
             margin: 5px 0;
+			color:white;
+	text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+			
         }
         .top-bar {
             background-color: skyblue;
@@ -96,9 +101,11 @@
             padding-right: 10px;
         }
     </style>
-<form action=" http://localhost/welcome.php" method="post">
-　文字輸入欄位: <input type="test" name="YourName">
-　<input type="submit" value="submit">
+<form action="/action_page.php">
+  <p><label for="w3review">leave a comment</label></p>
+  <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+  <br>
+  <input type="submit" value="Submit">
 </form>
 </body>
 </html>

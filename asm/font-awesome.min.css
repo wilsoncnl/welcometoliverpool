@@ -236,7 +236,7 @@
 
  .maxbox li:nth-child(2){
 
- background: url(img/2.png) no-repeat 0 0;
+ background: url(img/23.png) no-repeat 0 0;
 
  -webkit-transform:translateZ(50px);
 
@@ -244,7 +244,7 @@
 
  .maxbox li:nth-child(3){
 
- background: url(img/3.png) no-repeat 0 0;
+ background: url(img/31.png) no-repeat 0 0;
 
  -webkit-transform:rotateX(-90deg) translateZ(50px);
 
@@ -252,7 +252,7 @@
 
  .maxbox li:nth-child(4){
 
- background: url(img/4.png) no-repeat 0 0;
+ background: url(img/32.png) no-repeat 0 0;
 
  -webkit-transform:rotateX(90deg) translateZ(50px);
 
@@ -260,7 +260,7 @@
 
  .maxbox li:nth-child(5){
 
- background: url(img/5.png) no-repeat 0 0;
+ background: url(img/22.png) no-repeat 0 0;
 
  -webkit-transform:rotateY(-90deg) translateZ(50px);
 
@@ -268,7 +268,7 @@
 
  .maxbox li:nth-child(6){
 
- background: url(img/6.png) no-repeat 0 0;
+ background: url(img/4.png) no-repeat 0 0;
 
  -webkit-transform:rotateY(90deg) translateZ(50px);
 
